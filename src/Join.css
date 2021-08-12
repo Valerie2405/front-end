@@ -1,11 +1,12 @@
 .join {
-    position: absolute;
-    width: 600px;
-    height: 463px;
-    left: 420px;
-    top: 218px;
-
-    background: #F5F5FA;
+    position: relative;
+    display: inline-flex;
+    height: 80vh;
+    width: 60vh;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background: #CBC5ED;
     /* Shadow 3 */
     box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), -10px -10px 20px #FFFFFF;
     border-radius: 32px;
@@ -15,8 +16,7 @@
     position: absolute;
     width: 360px;
     height: 64px;
-    left: 120px;
-    top: 256px;
+   margin: auto;
 
     background: #F5F5FA;
     /* Inner shadow 2 */
@@ -27,17 +27,14 @@
 /* Join Group */
 h2 {
     position: absolute;
-    height: 103px;
-    left: 103px;
-    right: 103px;
-    top: calc(50% - 103px/2 - 98px);
-
+    margin: auto;
     font-family: ABeeZee;
+    padding-bottom: 40%;
     font-style: normal;
     font-weight: normal;
     font-size: 64px;
-    line-height: 40px;
-    display: 62%;
+    display: flex;
+    text-align: center;
     align-items: center;
     text-align: center;
 
@@ -45,20 +42,16 @@ h2 {
 }
 
 ::placeholder {
-    position: absolute;
-    height: 72px;
-    left: 38px;
-    right: 37px;
-    top: calc(50% - 72px/2 + 4px);
-
+    text-align: center;
     font-family: ABeeZee;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 40px;
-    display: 167%;
+    display: flex;
+    text-align: center;
     align-items: center;
     text-align: center;
+    margin: auto;
 
     color: #A5A5BA;
 } 
@@ -67,8 +60,8 @@ img {
     position: relative;
     width: 14px;
     height: 14px;
-    left: 280px;
-    top: 10px;
+    margin-left: 80%;
+    margin-bottom: 80%;
 }
 
 
