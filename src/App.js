@@ -47,7 +47,7 @@ function App() {
     // need to add functionality for create group button
 
     <div className="App">
-      <h1 className="title">budget hangout.</h1>
+      <h1 className="title">budget hangout<span style={{color: "#005FCC"}}>.</span></h1>
       <button className="JoinButton" onClick={openJoin}>Join Group</button>
       <button className="CreateButton">Create Group</button>
       <Join isUp={state.isJoining} handleCodeInput={handleCodeInput} closePopup={closePopup}/>
