@@ -16,8 +16,9 @@
     position: absolute;
     width: 360px;
     height: 64px;
-   margin: auto;
-
+    margin: auto;
+    font-size: 60px;
+    text-align: center;
     background: #F5F5FA;
     /* Inner shadow 2 */
     box-shadow: inset -2px -2px 4px rgba(255, 255, 255, 0.5), inset 2px 2px 4px rgba(170, 170, 204, 0.25), inset 5px 5px 10px rgba(170, 170, 204, 0.5), inset -5px -5px 10px #FFFFFF;
