@@ -9,8 +9,8 @@ function Budget({handleBudget}) {
                 <input 
                     type="text"
                     placeholder="Enter Budget"
-                    className="groupCodeInput"
-                    // onChange={handleBudget}
+                    className="budgetInput"
+                    onChange={handleBudget}
                     //onKeyPress={Budget} when key is pressed, 
                     // redirect to budget page
                     />
