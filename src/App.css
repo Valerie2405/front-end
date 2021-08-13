@@ -39,24 +39,40 @@
 
 .JoinButton {
   /* Button */
-position: absolute;
-width: 216px;
-height: 64px;
-left: 612px;
-top: 331px;
-
-background: #F5F5FA;
-/* Shadow 3 */
-box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), -10px -10px 20px #FFFFFF;
-border-radius: 32px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 10px;
+  appearance: none;
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: #F5F5FA;
+  /* Shadow 3 */
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), -10px -10px 20px #FFFFFF;
+  border-radius: 32px;
 }
 
 .CreateButton {
-  position: absolute;
-  width: 216px;
-  height: 64px;
-  left: 610px;
-  top: 437px;
+   margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 10px;
+  display: block;
+  appearance: none;
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
   
   background: #F5F5FA;
   /* Shadow 3 */
@@ -64,27 +80,16 @@ border-radius: 32px;
   border-radius: 32px;
 }
 
-/* Name */
-.title {
-  position: absolute;
-  width: 469px;
-  height: 102px;
-  left: 541px;
-  top: 23px;
-
-  /* XLargeTitle / Bold */
+h1 {
   font-style: normal;
-  font-weight: bold;
+  font-weight:bold;
   font-size: 54px;
   line-height: 64px;
-  /* or 119% */
-  display: flex;
-  align-items: center;
-
-  /* Black Text / Primary */
-  color: #020303;
+  margin-top: 80px;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(227, 230, 236);
 }
-
 
 
 
